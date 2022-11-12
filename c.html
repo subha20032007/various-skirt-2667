@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#log{
+    height: 500px;
+    width:40%;
+    margin: auto;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding-top:20px;
+}
+#log>input{
+width: 80%;
+height: 40px;
+border: 1px solid gray;
+border-radius: 10px;
+margin-top: 20px
+}
+.s{
+    width: 80%;
+height: 40px;
+border: 1px solid gray;
+border-radius: 10px;
+margin-top: 20pxs 
+}
+#log>a>button{
+width: 80%;
+height: 40px;
+margin-top: 30px;
+background-color: rgb(8,207,101);
+   border: 1px solid  rgb(8,207,101);
+   border-radius: 10px;
+}
+#log>p{
+color: rgb(0, 0, 0);
+}
+#log>div{
+width: 100%;
+justify-content: space-around;
+display: flex;
+}
+#log>a{
+text-decoration: none;
+color: black;
+
+font-size: 20px;
+}
+</style>
+<body>
+    <div id="log">
+        <a href="index.html"><h1>Ready to see Wrike for yourself?</h1></a> 
+        <p>We’d love to show you how Wrike can help your team do more of their best work. Fill out the form and we’ll be in touch within 24 hours.</p>
+        <input  type="text" placeholder="Enter your Name">
+        <input  type="number" placeholder="Enter your phone number">
+        <input  type="email" placeholder="Enter  your Email">
+        <a href="index.html"><button >Next</button></a> 
+       
+     
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("button").addEventListener("click",function(){
+        alert("Thanks For Contact Us")
+    })
+</script>
