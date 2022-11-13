@@ -1,0 +1,120 @@
+
+     #last{
+    height: 40px;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+color: white;
+background-color:rgb(24,31,56);
+padding: 2%;
+  }
+  #last>div{
+height: auto;
+width: 30%;
+display: flex;
+  }
+  
+#fot{
+      width:100%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(2,auto);
+      background-color:rgb(24,31,56);
+      color: aliceblue;
+      padding: 2%;
+      gap: 20px;
+     
+    }
+    #fot>div{
+margin: auto;
+background-color:rgb(24,31,56);
+text-align: left;
+    }
+    #fot>div>h1{
+
+        background-color:rgb(24,31,56);
+    }
+    #fot>div>h3{
+
+        background-color:rgb(24,31,56);
+}
+
+#i{
+    background-color: rgb(255, 255, 255);
+     color: black;
+     height: 200px;
+     text-align: center;
+}
+#i>h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+#ii{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    
+    width:80%;
+    margin:auto;
+}
+#ii>div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 8%;
+    border-radius: 10px;
+}
+#ii>div>div{
+display: flex;
+}
+#ii>div>button{
+padding: 10px;
+background-color: rgb(8,207,101);
+width: 60%;
+border: 1px solid rgb(8,207,101);
+border-radius: 5px;
+margin-left: 40px;
+margin-top: 20px;
+color: white;
+}
+#ii>div>button:hover{
+padding: 10px;
+background-color: rgb(241, 241, 241);
+width: 60%;
+color: black;
+border: 2px solid rgb(7, 8, 8);
+border-radius: 5px;
+margin-left: 40px;
+margin-top: 20px;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    color: white;
+    background-color:rgb(24,31,56);
+}
+#nav>div:nth-child(1){
+ 
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>div:nth-child(2){
+ 
+    height: 100%;
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>div>a{
+    text-decoration: none;
+  color: antiquewhite;
+  font-family: sans-serif;
+  font-size: 20px;
+}
